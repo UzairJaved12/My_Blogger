@@ -10,8 +10,8 @@ import retrofit2.http.Path;
 public class BloggerApi {
     private static final String TAG = "BloggerApi";
 
-    private static final String key = "AIzaSyDMjpLVgLCDcRdWrSOJIwLmpgOrhoOjqyM";
-    private static final String url =  "https://www.googleapis.com/blogger/v3/blogs/6813121827583683342/posts/";
+    private static final String key = "xxxxxxxxx";
+    private static final String url =  "https://www.googleapis.com/blogger/v3/blogs/xxxxxxx/posts/";
 
     public static PostService postService = null;
     public static PostService getService(){
